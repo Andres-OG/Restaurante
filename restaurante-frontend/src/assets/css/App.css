@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Paytone+One&family=Poiret+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Major+Mono+Display&family=Questrial&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .bg-red {
+    background-color: red;
+  }
+
+  .li {
+    @apply text-black;
+  }
+
+  .button {
+    @apply text-white font-bold py-1 px-4 rounded-xl;
+  }
+
+  .button:hover {
+    @apply transition-all duration-200 ease-in scale-125;
+  }
+
+  .button-icon {
+    @apply text-black font-bold rounded-full;
+  }
+
+  .button-icon:hover {
+    @apply transition-all duration-200 ease-in scale-110;
+  }
+
+  .offer {
+    @apply flex flex-col backdrop-brightness-50 text-white w-2/3 items-center p-5 pb-10 gap-5 bg-black/50 rounded-2xl;
+  }
+
+}

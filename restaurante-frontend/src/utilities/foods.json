@@ -1,0 +1,193 @@
+{
+    "food": [
+        {
+            "name": "Burger",
+            "description": "A delicious burger ksdlkdaldsaldkaldklaklalklakdlakdldlasklldmaklsdmak",
+            "src": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "price": 10,
+            "content": {
+                "ingredients" : [
+                    "Bread",
+                    "Meat",
+                    "Cheese",
+                    "Lettuce",
+                    "Tomato",
+                    "Onion",
+                    "Pickles",
+                    "Ketchup",
+                    "Mustard"
+                ]
+            }
+        },
+        {
+            "name": "Pizza",
+            "description": "A delicious pizza",
+            "src": "https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "price": 15,
+            "content": {
+                "ingredients" : [
+                    "Dough",
+                    "Tomato Sauce",
+                    "Cheese",
+                    "Pepperoni",
+                    "Mushrooms",
+                    "Peppers",
+                    "Onion",
+                    "Olives"
+                ]
+            }
+        },
+        {
+            "name": "Hot Dog",
+            "description": "A delicious hot dog",
+            "src": "https://img.freepik.com/fotos-premium/hot-dog-grill-mostaza-ketchup_752237-20221.jpg?w=1380",
+            "price": 12,
+            "content": {
+                "ingredients" : [
+                    "Bread",
+                    "Sausage",
+                    "Ketchup",
+                    "Mustard",
+                    "Onion",
+                    "Pickles",
+                    "Relish",
+                    "Peppers"
+                ]
+            }
+        },
+        {
+            "name": "Salad",
+            "description": "A delicious salad",
+            "src": "https://img.freepik.com/foto-gratis/vista-superior-ensalada-vegana-ingredientes-frescos-plato-pimienta-sobre-tabla-cortar-negra_179666-47300.jpg?t=st=1711747701~exp=1711751301~hmac=b7bd5aca91b41b94999b7e962f2fa58918357eef7a10c7c0827d59109b0b9d0f&w=996",
+            "price": 8,
+            "content": {
+                "ingredients" : [
+                    "Lettuce",
+                    "Tomato",
+                    "Cucumber",
+                    "Onion",
+                    "Peppers",
+                    "Olives",
+                    "Cheese",
+                    "Dressing"
+                ]
+            }
+        }
+    ],
+    "drinks": [
+        {
+            "name": "Coke",
+            "description": "A delicious coke",
+            "src": "https://images.milenio.com/bOaXGmEsYAjc_ObJMJQfRLLvoq4=/375x0/uploads/media/2020/09/29/te-gusta-este-refresco-shutterstock.jpg",
+            "price": 2
+        },
+        {
+            "name": "Pepsi",
+            "description": "A delicious pepsi",
+            "src": "https://cdn-3.expansion.mx/dims4/default/84d104e/2147483647/strip/true/crop/2123x1412+0+0/resize/1200x798!/format/webp/quality/60/?url=https%3A%2F%2Fcherry-brightspot.s3.amazonaws.com%2Fe3%2Fee%2Fe370ad1b42f496f0b128f09a5f44%2Fistock-487787092.jpg",
+            "price": 2
+        },
+        {
+            "name": "Sprite",
+            "description": "A delicious sprite",
+            "src": "https://st.depositphotos.com/1000647/4654/i/950/depositphotos_46544511-stock-photo-soft-drink-sprite.jpg",
+            "price": 2
+        },
+        {
+            "name": "Fanta",
+            "description": "A delicious fanta",
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpRgfIyGGbaAj_Jd5adBbZQik6d79FVCliL4AIL6tUBg&s",
+            "price": 2
+        }
+    ],
+    "desserts": [
+        {
+            "name": "Ice Cream",
+            "description": "A delicious ice cream",
+            "src": "https://img.freepik.com/fotos-premium/scoop-deliciosa-bola-helado-chocolate_74580-899.jpg?w=2000",
+            "price": 5,
+            "content": {
+                "flavors" : [
+                    "Chocolate",
+                    "Vanilla",
+                    "Strawberry",
+                    "Mint",
+                    "Cookies and Cream"
+                ],
+                "toppings" : [
+                    "Chocolate Chips",
+                    "Sprinkles",
+                    "Nuts",
+                    "Frosting",
+                    "Caramel"
+                ]
+            }
+        },
+        {
+            "name": "Cake",
+            "description": "A delicious cake",
+            "src": "https://img.freepik.com/foto-gratis/pastel-chocolate-rezuma-rica-ganache-plato-elegante_157027-4148.jpg?t=st=1711748094~exp=1711751694~hmac=cd40fada0f1de4897551c73d62211b9ad25d0a82643834851e9cc85a215e8219&w=2000",
+            "price": 10,
+            "content": {
+                "flavors" : [
+                    "Chocolate",
+                    "Vanilla",
+                    "Strawberry",
+                    "Mint",
+                    "Cookies and Cream"
+                ],
+                "toppings" : [
+                    "Chocolate Chips",
+                    "Sprinkles",
+                    "Nuts",
+                    "Frosting",
+                    "Caramel"
+                ]
+            }
+        },
+        {
+            "name": "Cookies",
+            "description": "A delicious cookie",
+            "src": "https://img.freepik.com/foto-gratis/primer-plano-monton-deliciosas-galletas-recien-horneadas_181624-27670.jpg?t=st=1711748140~exp=1711751740~hmac=fb650f605cb60da7bc70af3e7f0b5c80969cebc443b3c9f33c7ccc001c4567f4&w=996",
+            "price": 3,
+            "content": {
+                "flavors" : [
+                    "Chocolate Chip",
+                    "Sugar",
+                    "Peanut Butter",
+                    "Oatmeal",
+                    "Snickerdoodle"
+                ],
+                "toppings" : [
+                    "Chocolate Chips",
+                    "Sprinkles",
+                    "Nuts",
+                    "Frosting",
+                    "Caramel"
+                ]
+            }
+        },
+        {
+            "name": "Brownies",
+            "description": "A delicious brownie",
+            "src": "https://img.freepik.com/foto-gratis/tarta-pastel-brownie-chocolate-platos-caseros_114579-585.jpg?t=st=1711748172~exp=1711751772~hmac=c0496c7492330b57b5f0de4ef29519a1520045ed80504e4ecc222cd247d6ae34&w=2000",
+            "price": 5,
+            "content": {
+                "flavors" : [
+                    "Chocolate",
+                    "Vanilla",
+                    "Strawberry",
+                    "Mint",
+                    "Cookies and Cream"
+                ],
+                "toppings" : [
+                    "Chocolate Chips",
+                    "Sprinkles",
+                    "Nuts",
+                    "Frosting",
+                    "Caramel"
+                ]
+            }
+        }
+    ]
+}
